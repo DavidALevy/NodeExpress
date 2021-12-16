@@ -9,12 +9,12 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
         unique: true,
-        match:/.+@.+..+/
+        match: /.+@.+..+/
     },
     password: {
         type: String,
         required: true,
     }
 });
-const User =mongoose.model("User",userSchema);
-module.exports=User;
+const User = mongoose.model("User", userSchema);
+module.exports = User;
