@@ -3,6 +3,7 @@ Instructions for use
 
 This app needs to be run with insomnia using JSON.
 To add data, use POST and route: http://localhost:5000/user/
+
 Example of adding data:
 { 
     "username": "example11",
